@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 50px;">TO DO APP</h1>
+    <div class="main-section">
+        <div class="task-box">
+            <div class="task-box-heading">TASK LIST</div>
+            <div class="task-box-text">Add tasks to your list by typing to the right and pressing enter. You may then view pending tasks below.</div>
+            <div class="task-list">
+                <ul id="list-head">
+                    <!-- <li class="list-item">
+                        <span class="list-text">First Task</span>
+                        <span class="list-icons">
+                            <i class="emptySquare fa-sharp fa-regular fa-square" onclick = "taskDone(event)"></i>  
+                            <i class="checkedSquare fa-regular fa-square-check" onclick="taskUndone(event)"></i>
+                            <i class="pen fa-sharp fa-solid fa-pencil" onclick="editText(event)"></i>
+                            <i class="crossIcon fa-regular fa-x" onclick="removeTask(event)"></i>
+                        </span>
+                    </li>-->
+                </ul>                
+            </div>
+        </div>
+        <div class="text-box">
+            <textarea id="text-box-task" placeholder="I need to..." autofocus></textarea>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
